@@ -20,23 +20,23 @@ using System.Threading.Tasks;
 using AutoMapper;
 using System.Linq;
 using EnvironmentVolunteer.Service.Implementation;
-using Microsoft.AspNet.Identity;
+using System.Reflection.Metadata.Ecma335;
 
 namespace EnvironmentVolunteer.Service.Implementation
 {
     public class AdminAuthenService : BaseService, IAdminAuthenService
     {
-        private readonly Microsoft.AspNetCore.Identity.UserManager<User> _userManager;
+        private readonly UserManager<User> _userManager;
         private readonly SignInManager<User> _signInManager;
-        private readonly Microsoft.AspNetCore.Identity.RoleManager<Role> _roleManager;
+        private readonly RoleManager<Role> _roleManager;
         private readonly ITokenHandlerService _tokenService;
         public AdminAuthenService(
             AppSettings appSettings,
             IUnitOfWork unitOfWork,
             UserContext userContext,
-            Microsoft.AspNetCore.Identity.UserManager<User> userManager,
+            UserManager<User> userManager,
             SignInManager<User> signInManager,
-            Microsoft.AspNetCore.Identity.RoleManager<Role> roleManager,
+            RoleManager<Role> roleManager,
             ITokenHandlerService tokenService,
             IMapper mapper
         ) : base(appSettings, unitOfWork, userContext, mapper)
@@ -47,6 +47,26 @@ namespace EnvironmentVolunteer.Service.Implementation
             _tokenService = tokenService;
         }
 
+        //sign up
+        public async Task<string> RegisterAccount(RegisterModel model)
+        {
+            var user = new User
+            {
+                UserName = model.Username,
+                NameProfile = model.FullName,
+                Email = model.Email,
+            };
+
+            var result = await _userManager.CreateAsync(user, model.Password);
+
+            if (!result.Succeeded)
+            {
+                throw new ErrorException(Core.Enums.StatusCodeEnum.B01);
+            }
+
+            return "Sign up successfully";
+        }
+
         //log in
         public async Task<JwtModel> CheckLogin(string username, string password)
         {
@@ -54,7 +74,7 @@ namespace EnvironmentVolunteer.Service.Implementation
 
             if (user == null || username.Any(char.IsUpper) || !await _userManager.CheckPasswordAsync(user, password))
             {
-                throw new ErrorException(Core.Enums.StatusCodeEnum.BadRequest);
+                throw new ErrorException(Core.Enums.StatusCodeEnum.A02);
             }
 
             user.IsLogin = true;
@@ -88,7 +108,7 @@ namespace EnvironmentVolunteer.Service.Implementation
             }
             else
             {
-                throw new ErrorException(Core.Enums.StatusCodeEnum.BadRequest);
+                throw new ErrorException(Core.Enums.StatusCodeEnum.A02);
             }
         }
 
@@ -100,7 +120,7 @@ namespace EnvironmentVolunteer.Service.Implementation
 
             if (user == null)
             {
-                throw new ErrorException(Core.Enums.StatusCodeEnum.BadRequest);
+                throw new ErrorException(Core.Enums.StatusCodeEnum.A02);
             }
 
             var newAccessToken = await _tokenService.CreateAccessToken(user);

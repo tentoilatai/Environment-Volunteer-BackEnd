@@ -26,6 +26,19 @@ namespace EnvironmentVolunteer.Api.Controllers
             _configuration = configuration;
         }
 
+        [HttpPost("signUp")]
+        [AllowAnonymous]
+        public async Task<IActionResult> SignUp([FromBody] RegisterModel registerModel)
+        {
+            var registerUser = await _adminAuthenService.RegisterAccount(registerModel);
+            if (registerUser == null)
+            {
+                throw new ErrorException(Core.Enums.StatusCodeEnum.BadRequest);
+            }
+            return Success(registerUser);
+
+        }
+
         [HttpPost("login")]
         [AllowAnonymous]
         public async Task<IActionResult> Login([FromBody] LoginModel loginModel)

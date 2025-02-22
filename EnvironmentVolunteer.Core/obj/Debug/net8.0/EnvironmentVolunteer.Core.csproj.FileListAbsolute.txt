@@ -26,3 +26,4 @@ D:\environment-volunteer\EnvironmentVolunteer.Core\obj\Debug\net8.0\refint\Envir
 D:\environment-volunteer\EnvironmentVolunteer.Core\obj\Debug\net8.0\EnvironmentVolunteer.Core.pdb
 D:\environment-volunteer\EnvironmentVolunteer.Core\obj\Debug\net8.0\EnvironmentVolunteer.Core.genruntimeconfig.cache
 D:\environment-volunteer\EnvironmentVolunteer.Core\obj\Debug\net8.0\ref\EnvironmentVolunteer.Core.dll
+D:\environment-volunteer\EnvironmentVolunteer.Core\obj\Debug\net8.0\EnvironmentVolunteer.Core.sourcelink.json

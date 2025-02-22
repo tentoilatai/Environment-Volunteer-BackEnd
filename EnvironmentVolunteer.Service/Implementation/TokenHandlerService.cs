@@ -18,7 +18,7 @@ namespace EnvironmentVolunteer.Service.Implementation
 {
     public class TokenHandlerService : ITokenHandlerService
     {
-        UserManager<User> _userManager;
+        private UserManager<User> _userManager;
         private AppSettings _appSettings;
 
         public TokenHandlerService(UserManager<User> userManager, AppSettings appSettings)
@@ -132,7 +132,7 @@ namespace EnvironmentVolunteer.Service.Implementation
 
                 return principal;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return null;
             }
