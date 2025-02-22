@@ -32,3 +32,4 @@ D:\environment-volunteer\EnvironmentVolunteer.DataAccess\obj\Debug\net8.0\refint
 D:\environment-volunteer\EnvironmentVolunteer.DataAccess\obj\Debug\net8.0\EnvironmentVolunteer.DataAccess.pdb
 D:\environment-volunteer\EnvironmentVolunteer.DataAccess\obj\Debug\net8.0\EnvironmentVolunteer.DataAccess.genruntimeconfig.cache
 D:\environment-volunteer\EnvironmentVolunteer.DataAccess\obj\Debug\net8.0\ref\EnvironmentVolunteer.DataAccess.dll
+D:\environment-volunteer\EnvironmentVolunteer.DataAccess\obj\Debug\net8.0\EnvironmentVolunteer.DataAccess.sourcelink.json

@@ -39,8 +39,17 @@ namespace EnvironmentVolunteer.Api.Utils
             }
 
             var userManager = dbContext.GetService<UserManager<User>>();
+            var roleManager = dbContext.GetService<RoleManager<Role>>();
 
-            var user = new User
+            // Tạo role nếu chưa có
+            if (!dbContext.Roles.Any())
+            {
+                roleManager.CreateAsync(new Role { Name = "Admin" }).Wait();
+                roleManager.CreateAsync(new Role { Name = "User" }).Wait();
+
+            }
+
+            var admin = new User
             {
                 Id = Guid.NewGuid(),
                 UserName = "admin",
@@ -56,7 +65,12 @@ namespace EnvironmentVolunteer.Api.Utils
                 SecurityStamp = Guid.NewGuid().ToString("D")
             };
 
-            userManager.CreateAsync(user, "Envi2025@2025@2025").Wait();
+            var result = userManager.CreateAsync(admin, "Envi2025@2025@2025").Result;
+
+            if (result.Succeeded)
+            {
+                userManager.AddToRoleAsync(admin, "Admin").Wait(); // assign Admin permission for this user
+            }
 
             dbContext.SaveChanges();
         }

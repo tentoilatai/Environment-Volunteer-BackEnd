@@ -9,6 +9,7 @@ namespace EnvironmentVolunteer.Service.Interfaces
 {
     public interface IAdminAuthenService
     {
+        Task<string> RegisterAccount(RegisterModel model); 
         Task<JwtModel> CheckLogin(string username, string password);
         Task<bool> LogoutAsync();
         Task<JwtModel> RefreshTokenAsync(string refreshToken);

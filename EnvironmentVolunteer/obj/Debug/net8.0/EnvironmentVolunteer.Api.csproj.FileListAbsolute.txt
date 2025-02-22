@@ -178,11 +178,7 @@ D:\environment-volunteer\EnvironmentVolunteer\bin\Debug\net8.0\EnvironmentVolunt
 D:\environment-volunteer\EnvironmentVolunteer\bin\Debug\net8.0\AutoMapper.dll
 D:\environment-volunteer\EnvironmentVolunteer\bin\Debug\net8.0\Azure.Core.dll
 D:\environment-volunteer\EnvironmentVolunteer\bin\Debug\net8.0\Azure.Identity.dll
-D:\environment-volunteer\EnvironmentVolunteer\bin\Debug\net8.0\EntityFramework.SqlServer.dll
-D:\environment-volunteer\EnvironmentVolunteer\bin\Debug\net8.0\EntityFramework.dll
 D:\environment-volunteer\EnvironmentVolunteer\bin\Debug\net8.0\Humanizer.dll
-D:\environment-volunteer\EnvironmentVolunteer\bin\Debug\net8.0\Microsoft.AspNet.Identity.Core.dll
-D:\environment-volunteer\EnvironmentVolunteer\bin\Debug\net8.0\Microsoft.AspNet.Identity.EntityFramework.dll
 D:\environment-volunteer\EnvironmentVolunteer\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\environment-volunteer\EnvironmentVolunteer\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\environment-volunteer\EnvironmentVolunteer\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -338,3 +334,4 @@ D:\environment-volunteer\EnvironmentVolunteer\obj\Debug\net8.0\refint\Environmen
 D:\environment-volunteer\EnvironmentVolunteer\obj\Debug\net8.0\EnvironmentVolunteer.Api.pdb
 D:\environment-volunteer\EnvironmentVolunteer\obj\Debug\net8.0\EnvironmentVolunteer.Api.genruntimeconfig.cache
 D:\environment-volunteer\EnvironmentVolunteer\obj\Debug\net8.0\ref\EnvironmentVolunteer.Api.dll
+D:\environment-volunteer\EnvironmentVolunteer\obj\Debug\net8.0\EnvironmentVolunteer.Api.sourcelink.json

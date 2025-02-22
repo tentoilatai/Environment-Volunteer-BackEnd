@@ -23,8 +23,34 @@ namespace EnvironmentVolunteer.Core.Enums
         [Description("Page Size Invalid")]
         PageSizeInvalid = 4,
 
-        UnmatchedColumns = 5,
+        [Description("{Required Field} is required.")]
+        A01,
 
-        BadRequest = 6,
+        [Description("Incorrect username or password. Please try again.")]
+        A02,
+
+        [Description("Register account failed. Please try again.")]
+        B01,
+
+        [Description("{{Object}} not found")]
+        A03,
+
+        [Description("{{Client_Name}} has been created successfully.")]
+        A04,
+
+        [Description("Download Interrupted. Please check your internet connection and try again.")]
+        A05,
+
+        [Description("Bad request.")]
+        A06,
+
+        [Description("Invalid filter option.")]
+        InvalidOption,
+
+        [Description("Unmatched columns found.")]
+        UnmatchedColumns,
+
+        [Description("Bad request.")]
+        BadRequest,
     }
 }
