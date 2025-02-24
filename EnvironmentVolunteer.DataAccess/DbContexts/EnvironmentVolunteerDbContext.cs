@@ -30,8 +30,7 @@ namespace EnvironmentVolunteer.DataAccess.DbContexts
         }
 
         public virtual DbSet<AuditChange> AuditChanges { get; set; }
-        public virtual DbSet<> { get; set; }
-
+        public virtual DbSet<Campaign> Campaigns { get; set; }
 
 
 
