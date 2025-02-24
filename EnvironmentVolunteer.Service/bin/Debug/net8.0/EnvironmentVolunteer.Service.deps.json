@@ -1154,12 +1154,6 @@
       "System.Text.Json/8.0.4": {
         "dependencies": {
           "System.Text.Encodings.Web": "8.0.0"
-        },
-        "runtime": {
-          "lib/net8.0/System.Text.Json.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.724.31311"
-          }
         }
       },
       "System.Threading/4.3.0": {
@@ -1252,7 +1246,10 @@
           "Twilio.AspNet.Core": "8.1.1"
         },
         "runtime": {
-          "EnvironmentVolunteer.Core.dll": {}
+          "EnvironmentVolunteer.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "EnvironmentVolunteer.DataAccess/1.0.0": {
@@ -1276,7 +1273,10 @@
           "Twilio.AspNet.Core": "8.1.1"
         },
         "runtime": {
-          "EnvironmentVolunteer.DataAccess.dll": {}
+          "EnvironmentVolunteer.DataAccess.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

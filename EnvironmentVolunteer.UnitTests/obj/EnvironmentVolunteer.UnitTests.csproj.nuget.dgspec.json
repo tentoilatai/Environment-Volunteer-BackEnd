@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\environment-volunteer\\EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj": {}
+    "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj": {}
   },
   "projects": {
-    "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj": {
+    "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj",
+        "projectUniqueName": "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj",
         "projectName": "EnvironmentVolunteer.Core",
-        "projectPath": "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\obj\\",
+        "projectPath": "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj",
+        "packagesPath": "C:\\Users\\iam\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\iam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -142,24 +144,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj": {
+    "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj",
+        "projectUniqueName": "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj",
         "projectName": "EnvironmentVolunteer.DataAccess",
-        "projectPath": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\obj\\",
+        "projectPath": "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\iam\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\iam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -168,14 +170,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj": {
-                "projectPath": "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj"
+              "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj": {
+                "projectPath": "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj"
               }
             }
           }
@@ -189,7 +192,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -288,24 +292,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj": {
+    "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj",
+        "projectUniqueName": "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj",
         "projectName": "EnvironmentVolunteer.Service",
-        "projectPath": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\obj\\",
+        "projectPath": "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj",
+        "packagesPath": "C:\\Users\\iam\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\iam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -314,14 +318,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj": {
-                "projectPath": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj"
+              "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj": {
+                "projectPath": "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj"
               }
             }
           }
@@ -335,7 +340,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -434,24 +440,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\environment-volunteer\\EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj": {
+    "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\environment-volunteer\\EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj",
+        "projectUniqueName": "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj",
         "projectName": "EnvironmentVolunteer.UnitTests",
-        "projectPath": "D:\\environment-volunteer\\EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\environment-volunteer\\EnvironmentVolunteer.UnitTests\\obj\\",
+        "projectPath": "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\iam\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\iam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -460,17 +466,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj": {
-                "projectPath": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj"
+              "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj": {
+                "projectPath": "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj"
               },
-              "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj": {
-                "projectPath": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj"
+              "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj": {
+                "projectPath": "D:\\Project\\DOAN\\Environment-Volunteer-BackEnd\\EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj"
               }
             }
           }
@@ -484,7 +491,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -611,7 +619,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
