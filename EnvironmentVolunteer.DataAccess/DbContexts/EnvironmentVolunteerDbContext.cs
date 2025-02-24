@@ -32,9 +32,13 @@ namespace EnvironmentVolunteer.DataAccess.DbContexts
         public virtual DbSet<AuditChange> AuditChanges { get; set; }
         public virtual DbSet<Campaign> Campaigns { get; set; }
 
+        // 24-02-2025 Tài thực hiện
+        
+        public virtual DbSet<Project> Projects { get; set; }
 
 
-protected override void OnModelCreating(ModelBuilder builder)
+
+        protected override void OnModelCreating(ModelBuilder builder)
 {
     base.OnModelCreating(builder);
 
@@ -46,7 +50,10 @@ protected override void OnModelCreating(ModelBuilder builder)
     builder.Entity<UserRole>().ToTable("UserRoles");
     builder.Entity<UserToken>().ToTable("UserTokens");
     builder.Entity<AuditChange>();
-}
+
+            // 24-02-2025 Tài thực hiện
+            builder.Entity<Project>().ToTable("Projects");
+        }
 
 public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
 {
