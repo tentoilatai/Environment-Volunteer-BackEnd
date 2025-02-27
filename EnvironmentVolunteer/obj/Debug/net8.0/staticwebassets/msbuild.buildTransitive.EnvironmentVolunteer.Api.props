@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\EnvironmentVolunteer.Api.props" />
-</Project>
