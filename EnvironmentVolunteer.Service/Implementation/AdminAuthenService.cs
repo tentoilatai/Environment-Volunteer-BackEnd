@@ -21,6 +21,9 @@ using AutoMapper;
 using System.Linq;
 using EnvironmentVolunteer.Service.Implementation;
 using System.Reflection.Metadata.Ecma335;
+using System.Text.RegularExpressions;
+using Microsoft.EntityFrameworkCore;
+using System.Data;
 
 namespace EnvironmentVolunteer.Service.Implementation
 {
@@ -45,26 +48,61 @@ namespace EnvironmentVolunteer.Service.Implementation
             _signInManager = signInManager;
             _roleManager = roleManager;
             _tokenService = tokenService;
+            _userContext = userContext;
         }
 
         //sign up
         public async Task<string> RegisterAccount(RegisterModel model)
         {
+            var existingUser = await _userManager.FindByEmailAsync(model.Email);
+            if (existingUser != null)
+            {
+                return "Email is used. Please create new email!";
+            }
+
+            var existingUserByUsername = await _userManager.FindByNameAsync(model.Username);
+            if (existingUserByUsername != null)
+            {
+                return "Username is alrady taken. Please choose another one";
+            }
+
             var user = new User
             {
                 UserName = model.Username,
                 NameProfile = model.FullName,
                 Email = model.Email,
+                EmailConfirmed = true
             };
+
+            if (user?.Email == null || string.IsNullOrWhiteSpace(user.Email))
+            {
+                throw new ErrorException(Core.Enums.StatusCodeEnum.A01);
+            }
+
+            string emailPattern = @"^[^@\s]+@[^@\s]+\.[a-zA-Z]{2,}$";
+            if (!Regex.IsMatch(user.Email, emailPattern))
+            {
+                throw new ErrorException(Core.Enums.StatusCodeEnum.B04);
+            }
 
             var result = await _userManager.CreateAsync(user, model.Password);
 
             if (!result.Succeeded)
             {
-                throw new ErrorException(Core.Enums.StatusCodeEnum.B01);
+                throw new ErrorException(Core.Enums.StatusCodeEnum.B02);
             }
 
-            return "Sign up successfully";
+            //check role existed before assign
+            var roleExists = await _roleManager.RoleExistsAsync("User");
+            if (!roleExists)
+            {
+                await _roleManager.CreateAsync(new Role { Name = "User" });
+            }
+
+
+            await _userManager.AddToRoleAsync(user, "User");
+
+            return "Signed Up Successfully";
         }
 
         //log in
@@ -84,11 +122,14 @@ namespace EnvironmentVolunteer.Service.Implementation
             string accessToken = await _tokenService.CreateAccessToken(user);
             string refreshToken = await _tokenService.CreateRefreshToken(user);
 
+            var roles = await _userManager.GetRolesAsync(user);
+
             return new JwtModel
             {
                 AccessToken = accessToken,
                 RefreshToken = refreshToken,
-                FullName = user.NameProfile
+                FullName = user.NameProfile,
+                Role = roles.FirstOrDefault() ?? "User",
             };
         }
 
@@ -126,11 +167,14 @@ namespace EnvironmentVolunteer.Service.Implementation
             var newAccessToken = await _tokenService.CreateAccessToken(user);
             var newRefreshToken = await _tokenService.CreateRefreshToken(user);
 
+            var roles = await _userManager.GetRolesAsync(user);
+
             return new JwtModel
             {
                 AccessToken = newAccessToken,
                 RefreshToken = newRefreshToken,
-                FullName = user.UserName
+                FullName = user.NameProfile,
+                Role = roles.FirstOrDefault() ?? "User",
             };
         }
     }

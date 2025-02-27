@@ -3,60 +3,40 @@
   "WorkspaceRootPath": "D:\\environment-volunteer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|d:\\environment-volunteer\\environmentvolunteer\\utils\\infrastructuresetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|solutionrelative:environmentvolunteer\\utils\\infrastructuresetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|d:\\environment-volunteer\\environmentvolunteer\\controllers\\adminauthencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|solutionrelative:environmentvolunteer\\controllers\\adminauthencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|d:\\environment-volunteer\\environmentvolunteer.dataaccess\\implementation\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|solutionrelative:environmentvolunteer.dataaccess\\implementation\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|d:\\environment-volunteer\\environmentvolunteer.dataaccess\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|solutionrelative:environmentvolunteer.dataaccess\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|d:\\environment-volunteer\\environmentvolunteer.service\\interfaces\\itokenhandlerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|solutionrelative:environmentvolunteer.service\\interfaces\\itokenhandlerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|d:\\environment-volunteer\\environmentvolunteer.service\\interfaces\\iadminauthenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|solutionrelative:environmentvolunteer.service\\interfaces\\iadminauthenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|d:\\environment-volunteer\\environmentvolunteer.service\\implementation\\adminauthenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|solutionrelative:environmentvolunteer.service\\implementation\\adminauthenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|d:\\environment-volunteer\\environmentvolunteer\\middlewares\\environmentvolunteerauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|solutionrelative:environmentvolunteer\\middlewares\\environmentvolunteerauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB09D174-F739-41B5-8840-9E316E8506DB}|EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj|d:\\environment-volunteer\\environmentvolunteer.unittests\\adminauthenservices.unittests\\checklogintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB09D174-F739-41B5-8840-9E316E8506DB}|EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj|solutionrelative:environmentvolunteer.unittests\\adminauthenservices.unittests\\checklogintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|d:\\environment-volunteer\\environmentvolunteer.service\\apimodels\\authenmodels\\refreshtokenapimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|solutionrelative:environmentvolunteer.service\\apimodels\\authenmodels\\refreshtokenapimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|d:\\environment-volunteer\\environmentvolunteer.service\\apimodels\\authenmodels\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|solutionrelative:environmentvolunteer.service\\apimodels\\authenmodels\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|d:\\environment-volunteer\\environmentvolunteer.service\\apimodels\\authenmodels\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|solutionrelative:environmentvolunteer.service\\apimodels\\authenmodels\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|d:\\environment-volunteer\\environmentvolunteer.dataaccess\\dbcontexts\\environmentvolunteerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|solutionrelative:environmentvolunteer.dataaccess\\dbcontexts\\environmentvolunteerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|d:\\environment-volunteer\\environmentvolunteer.service\\apimodels\\authenmodels\\jwtmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|solutionrelative:environmentvolunteer.service\\apimodels\\authenmodels\\jwtmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|d:\\environment-volunteer\\environmentvolunteer.dataaccess\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|solutionrelative:environmentvolunteer.dataaccess\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|d:\\environment-volunteer\\environmentvolunteer\\utils\\infrastructuresetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|solutionrelative:environmentvolunteer\\utils\\infrastructuresetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|d:\\environment-volunteer\\environmentvolunteer.service\\implementation\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|solutionrelative:environmentvolunteer.service\\implementation\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E344CEC3-1F38-4131-B0F0-6CB066DB90F1}|EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj|d:\\environment-volunteer\\environmentvolunteer.core\\apimodels\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E344CEC3-1F38-4131-B0F0-6CB066DB90F1}|EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj|solutionrelative:environmentvolunteer.core\\apimodels\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|d:\\environment-volunteer\\environmentvolunteer.service\\implementation\\tokenhandlerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|solutionrelative:environmentvolunteer.service\\implementation\\tokenhandlerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E344CEC3-1F38-4131-B0F0-6CB066DB90F1}|EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj|d:\\environment-volunteer\\environmentvolunteer.core\\apimodels\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E344CEC3-1F38-4131-B0F0-6CB066DB90F1}|EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj|solutionrelative:environmentvolunteer.core\\apimodels\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|d:\\environment-volunteer\\environmentvolunteer\\middlewares\\usercontextmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,76 +47,112 @@
       "RelativeMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|solutionrelative:environmentvolunteer\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|d:\\environment-volunteer\\environmentvolunteer\\middlewares\\authenmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|solutionrelative:environmentvolunteer\\middlewares\\authenmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|d:\\environment-volunteer\\environmentvolunteer.dataaccess\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|solutionrelative:environmentvolunteer.dataaccess\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|d:\\environment-volunteer\\environmentvolunteer.dataaccess\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|solutionrelative:environmentvolunteer.dataaccess\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|d:\\environment-volunteer\\environmentvolunteer.service\\interfaces\\itokenhandlerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|solutionrelative:environmentvolunteer.service\\interfaces\\itokenhandlerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|d:\\environment-volunteer\\environmentvolunteer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|solutionrelative:environmentvolunteer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|d:\\environment-volunteer\\environmentvolunteer.dataaccess\\implementation\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|solutionrelative:environmentvolunteer.dataaccess\\implementation\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|d:\\environment-volunteer\\environmentvolunteer.dataaccess\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|solutionrelative:environmentvolunteer.dataaccess\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E344CEC3-1F38-4131-B0F0-6CB066DB90F1}|EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj|d:\\environment-volunteer\\environmentvolunteer.core\\enums\\statuscodeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E344CEC3-1F38-4131-B0F0-6CB066DB90F1}|EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj|solutionrelative:environmentvolunteer.core\\enums\\statuscodeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|d:\\environment-volunteer\\environmentvolunteer\\automapperprofiles\\projectprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|solutionrelative:environmentvolunteer\\automapperprofiles\\projectprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|d:\\environment-volunteer\\environmentvolunteer.dataaccess\\models\\basetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|solutionrelative:environmentvolunteer.dataaccess\\models\\basetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|d:\\environment-volunteer\\environmentvolunteer.service\\implementation\\tokenhandlerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|solutionrelative:environmentvolunteer.service\\implementation\\tokenhandlerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|d:\\environment-volunteer\\environmentvolunteer\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|solutionrelative:environmentvolunteer\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|d:\\environment-volunteer\\environmentvolunteer\\environmentvolunteer.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|solutionrelative:environmentvolunteer\\environmentvolunteer.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB09D174-F739-41B5-8840-9E316E8506DB}|EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj|d:\\environment-volunteer\\environmentvolunteer.unittests\\baseunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB09D174-F739-41B5-8840-9E316E8506DB}|EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj|solutionrelative:environmentvolunteer.unittests\\baseunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E344CEC3-1F38-4131-B0F0-6CB066DB90F1}|EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj|d:\\environment-volunteer\\environmentvolunteer.core\\apimodels\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E344CEC3-1F38-4131-B0F0-6CB066DB90F1}|EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj|solutionrelative:environmentvolunteer.core\\apimodels\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|d:\\environment-volunteer\\environmentvolunteer\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|solutionrelative:environmentvolunteer\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB09D174-F739-41B5-8840-9E316E8506DB}|EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj|d:\\environment-volunteer\\environmentvolunteer.unittests\\environmentvolunteer.unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{AB09D174-F739-41B5-8840-9E316E8506DB}|EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj|solutionrelative:environmentvolunteer.unittests\\environmentvolunteer.unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|d:\\environment-volunteer\\environmentvolunteer.dataaccess\\models\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|solutionrelative:environmentvolunteer.dataaccess\\models\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|d:\\environment-volunteer\\environmentvolunteer.dataaccess\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|solutionrelative:environmentvolunteer.dataaccess\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|d:\\environment-volunteer\\environmentvolunteer.dataaccess\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|solutionrelative:environmentvolunteer.dataaccess\\models\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|d:\\environment-volunteer\\environmentvolunteer.dataaccess\\models\\guidbasetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|solutionrelative:environmentvolunteer.dataaccess\\models\\guidbasetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|d:\\environment-volunteer\\environmentvolunteer.dataaccess\\models\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|solutionrelative:environmentvolunteer.dataaccess\\models\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E344CEC3-1F38-4131-B0F0-6CB066DB90F1}|EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj|d:\\environment-volunteer\\environmentvolunteer.core\\enums\\statuscodeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E344CEC3-1F38-4131-B0F0-6CB066DB90F1}|EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj|solutionrelative:environmentvolunteer.core\\enums\\statuscodeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|d:\\environment-volunteer\\environmentvolunteer.dataaccess\\migrations\\environmentvolunteerdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|solutionrelative:environmentvolunteer.dataaccess\\migrations\\environmentvolunteerdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|d:\\environment-volunteer\\environmentvolunteer.service\\interfaces\\iadminauthenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|solutionrelative:environmentvolunteer.service\\interfaces\\iadminauthenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|d:\\environment-volunteer\\environmentvolunteer.dataaccess\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|solutionrelative:environmentvolunteer.dataaccess\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|d:\\environment-volunteer\\environmentvolunteer\\middlewares\\environmentvolunteerauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|solutionrelative:environmentvolunteer\\middlewares\\environmentvolunteerauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|d:\\environment-volunteer\\environmentvolunteer\\middlewares\\authenmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|solutionrelative:environmentvolunteer\\middlewares\\authenmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E344CEC3-1F38-4131-B0F0-6CB066DB90F1}|EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj|d:\\environment-volunteer\\environmentvolunteer.core\\contants\\contants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E344CEC3-1F38-4131-B0F0-6CB066DB90F1}|EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj|solutionrelative:environmentvolunteer.core\\contants\\contants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|d:\\environment-volunteer\\environmentvolunteer.service\\apimodels\\authenmodels\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|solutionrelative:environmentvolunteer.service\\apimodels\\authenmodels\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|d:\\environment-volunteer\\environmentvolunteer\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|solutionrelative:environmentvolunteer\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|d:\\environment-volunteer\\environmentvolunteer\\controllers\\adminauthencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|solutionrelative:environmentvolunteer\\controllers\\adminauthencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|d:\\environment-volunteer\\environmentvolunteer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|solutionrelative:environmentvolunteer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|d:\\environment-volunteer\\environmentvolunteer.dataaccess\\models\\basetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|solutionrelative:environmentvolunteer.dataaccess\\models\\basetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|d:\\environment-volunteer\\environmentvolunteer.dataaccess\\models\\auditchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|solutionrelative:environmentvolunteer.dataaccess\\models\\auditchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|d:\\environment-volunteer\\environmentvolunteer\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|solutionrelative:environmentvolunteer\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB09D174-F739-41B5-8840-9E316E8506DB}|EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj|d:\\environment-volunteer\\environmentvolunteer.unittests\\baseunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB09D174-F739-41B5-8840-9E316E8506DB}|EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj|solutionrelative:environmentvolunteer.unittests\\baseunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|d:\\environment-volunteer\\environmentvolunteer.dataaccess\\models\\guidbasetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|solutionrelative:environmentvolunteer.dataaccess\\models\\guidbasetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|d:\\environment-volunteer\\environmentvolunteer.service\\apimodels\\authenmodels\\refreshtokenapimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|solutionrelative:environmentvolunteer.service\\apimodels\\authenmodels\\refreshtokenapimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|d:\\environment-volunteer\\environmentvolunteer.service\\apimodels\\authenmodels\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82502ABD-28A4-4301-BFA3-C2A23CC3B3DF}|EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj|solutionrelative:environmentvolunteer.service\\apimodels\\authenmodels\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|d:\\environment-volunteer\\environmentvolunteer\\automapperprofiles\\projectprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|solutionrelative:environmentvolunteer\\automapperprofiles\\projectprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|d:\\environment-volunteer\\environmentvolunteer\\environmentvolunteer.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{CA909440-1E06-4DE4-914B-291E29ED394D}|EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj|solutionrelative:environmentvolunteer\\environmentvolunteer.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB09D174-F739-41B5-8840-9E316E8506DB}|EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj|d:\\environment-volunteer\\environmentvolunteer.unittests\\environmentvolunteer.unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AB09D174-F739-41B5-8840-9E316E8506DB}|EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj|solutionrelative:environmentvolunteer.unittests\\environmentvolunteer.unittests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79FBD2DE-DEA7-49DF-82B8-3BCB9847C2B5}|EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj|d:\\environment-volunteer\\environmentvolunteer.dataaccess\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -167,10 +183,6 @@
       "RelativeMoniker": "D:0:0:{E344CEC3-1F38-4131-B0F0-6CB066DB90F1}|EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj|solutionrelative:environmentvolunteer.core\\extensions\\customattributeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E344CEC3-1F38-4131-B0F0-6CB066DB90F1}|EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj|d:\\environment-volunteer\\environmentvolunteer.core\\apimodels\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E344CEC3-1F38-4131-B0F0-6CB066DB90F1}|EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj|solutionrelative:environmentvolunteer.core\\apimodels\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E344CEC3-1F38-4131-B0F0-6CB066DB90F1}|EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj|d:\\environment-volunteer\\environmentvolunteer.core\\apimodels\\pagingbasemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E344CEC3-1F38-4131-B0F0-6CB066DB90F1}|EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj|solutionrelative:environmentvolunteer.core\\apimodels\\pagingbasemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -198,50 +210,148 @@
       "DocumentGroups": [
         {
           "DockedWidth": 118,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnvironmentVolunteerDbContext.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\DbContexts\\EnvironmentVolunteerDbContext.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer.DataAccess\\DbContexts\\EnvironmentVolunteerDbContext.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\DbContexts\\EnvironmentVolunteerDbContext.cs",
+              "RelativeToolTip": "EnvironmentVolunteer.DataAccess\\DbContexts\\EnvironmentVolunteerDbContext.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAkwC4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T04:16:56.405Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AdminAuthenService.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\Implementation\\AdminAuthenService.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer.Service\\Implementation\\AdminAuthenService.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\Implementation\\AdminAuthenService.cs",
+              "RelativeToolTip": "EnvironmentVolunteer.Service\\Implementation\\AdminAuthenService.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAuwKQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T03:15:41.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JwtModel.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\JwtModel.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\JwtModel.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\JwtModel.cs",
+              "RelativeToolTip": "EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\JwtModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T03:41:43.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "InfrastructureSetup.cs",
               "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer\\Utils\\InfrastructureSetup.cs",
               "RelativeDocumentMoniker": "EnvironmentVolunteer\\Utils\\InfrastructureSetup.cs",
               "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer\\Utils\\InfrastructureSetup.cs",
               "RelativeToolTip": "EnvironmentVolunteer\\Utils\\InfrastructureSetup.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAA0wDEAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T02:05:22.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Implementation\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer.DataAccess\\Implementation\\UnitOfWork.cs",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Implementation\\UnitOfWork.cs",
-              "RelativeToolTip": "EnvironmentVolunteer.DataAccess\\Implementation\\UnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Models\\User.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer.DataAccess\\Models\\User.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Models\\User.cs",
+              "RelativeToolTip": "EnvironmentVolunteer.DataAccess\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T15:27:05.639Z",
+              "WhenOpened": "2025-01-19T03:28:30.267Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminAuthenController.cs",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer\\Controllers\\AdminAuthenController.cs",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer\\Controllers\\AdminAuthenController.cs",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer\\Controllers\\AdminAuthenController.cs",
-              "RelativeToolTip": "EnvironmentVolunteer\\Controllers\\AdminAuthenController.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAAADIAAAANAAAA",
+              "DocumentIndex": 5,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\Implementation\\BaseService.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer.Service\\Implementation\\BaseService.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\Implementation\\BaseService.cs",
+              "RelativeToolTip": "EnvironmentVolunteer.Service\\Implementation\\BaseService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIAzwBcAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T03:21:02.251Z",
+              "WhenOpened": "2025-01-17T03:15:18.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\ApiModels\\UserContext.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer.Core\\ApiModels\\UserContext.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\ApiModels\\UserContext.cs",
+              "RelativeToolTip": "EnvironmentVolunteer.Core\\ApiModels\\UserContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T03:06:01.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TokenHandlerService.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\Implementation\\TokenHandlerService.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer.Service\\Implementation\\TokenHandlerService.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\Implementation\\TokenHandlerService.cs",
+              "RelativeToolTip": "EnvironmentVolunteer.Service\\Implementation\\TokenHandlerService.cs",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAkwCsAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T03:15:57.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserContextMiddleware.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer\\Middlewares\\UserContextMiddleware.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer\\Middlewares\\UserContextMiddleware.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer\\Middlewares\\UserContextMiddleware.cs",
+              "RelativeToolTip": "EnvironmentVolunteer\\Middlewares\\UserContextMiddleware.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T02:01:10.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer\\Middlewares\\ExceptionMiddleware.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "EnvironmentVolunteer\\Middlewares\\ExceptionMiddleware.cs",
+              "ViewState": "AQIAAKwAAAAAAAAAAAAAAJcAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T03:00:07.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "ITokenHandlerService.cs",
               "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\Interfaces\\ITokenHandlerService.cs",
               "RelativeDocumentMoniker": "EnvironmentVolunteer.Service\\Interfaces\\ITokenHandlerService.cs",
@@ -253,7 +363,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\ApiModels\\AppSettings.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer.Core\\ApiModels\\AppSettings.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\ApiModels\\AppSettings.cs",
+              "RelativeToolTip": "EnvironmentVolunteer.Core\\ApiModels\\AppSettings.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAABDwCgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T03:04:20.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer.DataAccess\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "EnvironmentVolunteer.DataAccess\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:45:26.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "UserRole.cs",
               "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Models\\UserRole.cs",
               "RelativeDocumentMoniker": "EnvironmentVolunteer.DataAccess\\Models\\UserRole.cs",
@@ -265,7 +400,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Implementation\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer.DataAccess\\Implementation\\UnitOfWork.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Implementation\\UnitOfWork.cs",
+              "RelativeToolTip": "EnvironmentVolunteer.DataAccess\\Implementation\\UnitOfWork.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAswA0AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T15:27:05.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Models\\Permission.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer.DataAccess\\Models\\Permission.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Models\\Permission.cs",
+              "RelativeToolTip": "EnvironmentVolunteer.DataAccess\\Models\\Permission.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T03:27:51.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RolePermission.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Models\\RolePermission.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer.DataAccess\\Models\\RolePermission.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Models\\RolePermission.cs",
+              "RelativeToolTip": "EnvironmentVolunteer.DataAccess\\Models\\RolePermission.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T03:28:18.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StatusCodeEnum.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\Enums\\StatusCodeEnum.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer.Core\\Enums\\StatusCodeEnum.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\Enums\\StatusCodeEnum.cs",
+              "RelativeToolTip": "EnvironmentVolunteer.Core\\Enums\\StatusCodeEnum.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAIA0wCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T09:28:14.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EnvironmentVolunteerDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Migrations\\EnvironmentVolunteerDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer.DataAccess\\Migrations\\EnvironmentVolunteerDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Migrations\\EnvironmentVolunteerDbContextModelSnapshot.cs",
+              "RelativeToolTip": "EnvironmentVolunteer.DataAccess\\Migrations\\EnvironmentVolunteerDbContextModelSnapshot.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAA0wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:34:46.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "IAdminAuthenService.cs",
               "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\Interfaces\\IAdminAuthenService.cs",
               "RelativeDocumentMoniker": "EnvironmentVolunteer.Service\\Interfaces\\IAdminAuthenService.cs",
@@ -277,139 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AdminAuthenService.cs",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\Implementation\\AdminAuthenService.cs",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer.Service\\Implementation\\AdminAuthenService.cs",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\Implementation\\AdminAuthenService.cs",
-              "RelativeToolTip": "EnvironmentVolunteer.Service\\Implementation\\AdminAuthenService.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAAAEIAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T03:15:41.504Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EnvironmentVolunteerAuthorizeAttribute.cs",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer\\Middlewares\\EnvironmentVolunteerAuthorizeAttribute.cs",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer\\Middlewares\\EnvironmentVolunteerAuthorizeAttribute.cs",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer\\Middlewares\\EnvironmentVolunteerAuthorizeAttribute.cs",
-              "RelativeToolTip": "EnvironmentVolunteer\\Middlewares\\EnvironmentVolunteerAuthorizeAttribute.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T02:58:44.284Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CheckLoginTests.cs",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.UnitTests\\AdminAuthenServices.UnitTests\\CheckLoginTests.cs",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer.UnitTests\\AdminAuthenServices.UnitTests\\CheckLoginTests.cs",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.UnitTests\\AdminAuthenServices.UnitTests\\CheckLoginTests.cs",
-              "RelativeToolTip": "EnvironmentVolunteer.UnitTests\\AdminAuthenServices.UnitTests\\CheckLoginTests.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAUwBIAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T10:26:07.765Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RefreshTokenApiModel.cs",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\RefreshTokenApiModel.cs",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\RefreshTokenApiModel.cs",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\RefreshTokenApiModel.cs",
-              "RelativeToolTip": "EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\RefreshTokenApiModel.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAQAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T03:42:22.019Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RegisterModel.cs",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\RegisterModel.cs",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\RegisterModel.cs",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\RegisterModel.cs",
-              "RelativeToolTip": "EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\RegisterModel.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAABYAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T07:50:26.041Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\LoginModel.cs",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\LoginModel.cs",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\LoginModel.cs",
-              "RelativeToolTip": "EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\LoginModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T03:41:54.66Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "JwtModel.cs",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\JwtModel.cs",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\JwtModel.cs",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\JwtModel.cs",
-              "RelativeToolTip": "EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\JwtModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T03:41:43.777Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BaseService.cs",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\Implementation\\BaseService.cs",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer.Service\\Implementation\\BaseService.cs",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\Implementation\\BaseService.cs",
-              "RelativeToolTip": "EnvironmentVolunteer.Service\\Implementation\\BaseService.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAowBYAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T03:15:18.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserContextMiddleware.cs",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer\\Middlewares\\UserContextMiddleware.cs",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer\\Middlewares\\UserContextMiddleware.cs",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer\\Middlewares\\UserContextMiddleware.cs",
-              "RelativeToolTip": "EnvironmentVolunteer\\Middlewares\\UserContextMiddleware.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAAADEAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T02:01:10.978Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ExceptionMiddleware.cs",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer\\Middlewares\\ExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer\\Middlewares\\ExceptionMiddleware.cs",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer\\Middlewares\\ExceptionMiddleware.cs",
-              "RelativeToolTip": "EnvironmentVolunteer\\Middlewares\\ExceptionMiddleware.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAUwDQAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T03:00:07.434Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AuthenMiddleware.cs",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer\\Middlewares\\AuthenMiddleware.cs",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer\\Middlewares\\AuthenMiddleware.cs",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer\\Middlewares\\AuthenMiddleware.cs",
-              "RelativeToolTip": "EnvironmentVolunteer\\Middlewares\\AuthenMiddleware.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAuwBEAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T02:59:33.528Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Role.cs",
               "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Models\\Role.cs",
               "RelativeDocumentMoniker": "EnvironmentVolunteer.DataAccess\\Models\\Role.cs",
@@ -421,43 +484,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer\\Program.cs",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer\\Program.cs",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer\\Program.cs",
-              "RelativeToolTip": "EnvironmentVolunteer\\Program.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADsAAAAzAAAA",
+              "DocumentIndex": 21,
+              "Title": "EnvironmentVolunteerAuthorizeAttribute.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer\\Middlewares\\EnvironmentVolunteerAuthorizeAttribute.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer\\Middlewares\\EnvironmentVolunteerAuthorizeAttribute.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer\\Middlewares\\EnvironmentVolunteerAuthorizeAttribute.cs",
+              "RelativeToolTip": "EnvironmentVolunteer\\Middlewares\\EnvironmentVolunteerAuthorizeAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T15:32:22.565Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Models\\User.cs",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer.DataAccess\\Models\\User.cs",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Models\\User.cs",
-              "RelativeToolTip": "EnvironmentVolunteer.DataAccess\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T03:28:30.267Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "StatusCodeEnum.cs",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\Enums\\StatusCodeEnum.cs",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer.Core\\Enums\\StatusCodeEnum.cs",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\Enums\\StatusCodeEnum.cs",
-              "RelativeToolTip": "EnvironmentVolunteer.Core\\Enums\\StatusCodeEnum.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAiwCAAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T09:28:14.125Z"
+              "WhenOpened": "2025-01-17T02:58:44.284Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
+              "Title": "AuthenMiddleware.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer\\Middlewares\\AuthenMiddleware.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer\\Middlewares\\AuthenMiddleware.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer\\Middlewares\\AuthenMiddleware.cs",
+              "RelativeToolTip": "EnvironmentVolunteer\\Middlewares\\AuthenMiddleware.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAuwBEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T02:59:33.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Contants.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\Contants\\Contants.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer.Core\\Contants\\Contants.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\Contants\\Contants.cs",
+              "RelativeToolTip": "EnvironmentVolunteer.Core\\Contants\\Contants.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T02:57:46.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\RegisterModel.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\RegisterModel.cs",
+              "RelativeToolTip": "EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\RegisterModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T11:50:55.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BaseApiController.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer\\Controllers\\BaseApiController.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer\\Controllers\\BaseApiController.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer\\Controllers\\BaseApiController.cs",
+              "RelativeToolTip": "EnvironmentVolunteer\\Controllers\\BaseApiController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T02:54:34.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AdminAuthenController.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer\\Controllers\\AdminAuthenController.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer\\Controllers\\AdminAuthenController.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer\\Controllers\\AdminAuthenController.cs",
+              "RelativeToolTip": "EnvironmentVolunteer\\Controllers\\AdminAuthenController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T03:21:02.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "BaseTable.cs",
               "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Models\\BaseTable.cs",
               "RelativeDocumentMoniker": "EnvironmentVolunteer.DataAccess\\Models\\BaseTable.cs",
@@ -469,111 +568,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "TokenHandlerService.cs",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\Implementation\\TokenHandlerService.cs",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer.Service\\Implementation\\TokenHandlerService.cs",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\Implementation\\TokenHandlerService.cs",
-              "RelativeToolTip": "EnvironmentVolunteer.Service\\Implementation\\TokenHandlerService.cs",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAgwIUAAAANAAAA",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer\\Program.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer\\Program.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer\\Program.cs",
+              "RelativeToolTip": "EnvironmentVolunteer\\Program.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADwAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T03:15:57.3Z"
+              "WhenOpened": "2025-01-18T15:32:22.565Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ProjectProfile.cs",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer\\AutoMapperProfiles\\ProjectProfile.cs",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer\\AutoMapperProfiles\\ProjectProfile.cs",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer\\AutoMapperProfiles\\ProjectProfile.cs",
-              "RelativeToolTip": "EnvironmentVolunteer\\AutoMapperProfiles\\ProjectProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T03:20:12.468Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer\\appsettings.Development.json",
               "RelativeDocumentMoniker": "EnvironmentVolunteer\\appsettings.Development.json",
               "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer\\appsettings.Development.json",
               "RelativeToolTip": "EnvironmentVolunteer\\appsettings.Development.json",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAABzAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-02-18T03:34:53.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "EnvironmentVolunteer.http",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer\\EnvironmentVolunteer.http",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer\\EnvironmentVolunteer.http",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer\\EnvironmentVolunteer.http",
-              "RelativeToolTip": "EnvironmentVolunteer\\EnvironmentVolunteer.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-01-19T04:16:44.27Z"
+              "DocumentIndex": 29,
+              "Title": "AuditChange.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Models\\AuditChange.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer.DataAccess\\Models\\AuditChange.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Models\\AuditChange.cs",
+              "RelativeToolTip": "EnvironmentVolunteer.DataAccess\\Models\\AuditChange.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T04:58:11.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "BaseUnitTest.cs",
               "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.UnitTests\\BaseUnitTest.cs",
               "RelativeDocumentMoniker": "EnvironmentVolunteer.UnitTests\\BaseUnitTest.cs",
               "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.UnitTests\\BaseUnitTest.cs",
               "RelativeToolTip": "EnvironmentVolunteer.UnitTests\\BaseUnitTest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKcAAAALAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAkwKcAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T02:51:48.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "AppSettings.cs",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\ApiModels\\AppSettings.cs",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer.Core\\ApiModels\\AppSettings.cs",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\ApiModels\\AppSettings.cs",
-              "RelativeToolTip": "EnvironmentVolunteer.Core\\ApiModels\\AppSettings.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAADgvygAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T03:04:20.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "BaseApiController.cs",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer\\Controllers\\BaseApiController.cs",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer\\Controllers\\BaseApiController.cs",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer\\Controllers\\BaseApiController.cs",
-              "RelativeToolTip": "EnvironmentVolunteer\\Controllers\\BaseApiController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T02:54:34.35Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "EnvironmentVolunteer.UnitTests.csproj",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj",
-              "RelativeToolTip": "EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-17T08:57:27.641Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "RolePermission.cs",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Models\\RolePermission.cs",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer.DataAccess\\Models\\RolePermission.cs",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Models\\RolePermission.cs",
-              "RelativeToolTip": "EnvironmentVolunteer.DataAccess\\Models\\RolePermission.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T03:28:18.576Z"
             },
             {
               "$type": "Document",
@@ -589,31 +628,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Permission.cs",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Models\\Permission.cs",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer.DataAccess\\Models\\Permission.cs",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Models\\Permission.cs",
-              "RelativeToolTip": "EnvironmentVolunteer.DataAccess\\Models\\Permission.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAMBSwAUAAAAwAAAA",
+              "DocumentIndex": 33,
+              "Title": "RefreshTokenApiModel.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\RefreshTokenApiModel.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\RefreshTokenApiModel.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\RefreshTokenApiModel.cs",
+              "RelativeToolTip": "EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\RefreshTokenApiModel.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAQAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T03:27:51.539Z"
+              "WhenOpened": "2025-01-19T03:42:22.019Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "AuditChange.cs",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Models\\AuditChange.cs",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer.DataAccess\\Models\\AuditChange.cs",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Models\\AuditChange.cs",
-              "RelativeToolTip": "EnvironmentVolunteer.DataAccess\\Models\\AuditChange.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAA5wAAAAAAAAAAA",
+              "DocumentIndex": 34,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\LoginModel.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\LoginModel.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\LoginModel.cs",
+              "RelativeToolTip": "EnvironmentVolunteer.Service\\ApiModels\\AuthenModels\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T04:58:11.286Z"
+              "WhenOpened": "2025-01-19T03:41:54.66Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 35,
+              "Title": "ProjectProfile.cs",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer\\AutoMapperProfiles\\ProjectProfile.cs",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer\\AutoMapperProfiles\\ProjectProfile.cs",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer\\AutoMapperProfiles\\ProjectProfile.cs",
+              "RelativeToolTip": "EnvironmentVolunteer\\AutoMapperProfiles\\ProjectProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T03:20:12.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "EnvironmentVolunteer.http",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer\\EnvironmentVolunteer.http",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer\\EnvironmentVolunteer.http",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer\\EnvironmentVolunteer.http",
+              "RelativeToolTip": "EnvironmentVolunteer\\EnvironmentVolunteer.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-01-19T04:16:44.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "EnvironmentVolunteer.UnitTests.csproj",
+              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj",
+              "RelativeDocumentMoniker": "EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj",
+              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj",
+              "RelativeToolTip": "EnvironmentVolunteer.UnitTests\\EnvironmentVolunteer.UnitTests.csproj",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-17T08:57:27.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
               "Title": "RoleClaim.cs",
               "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Models\\RoleClaim.cs",
               "RelativeDocumentMoniker": "EnvironmentVolunteer.DataAccess\\Models\\RoleClaim.cs",
@@ -625,7 +700,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "UserLogin.cs",
               "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Models\\UserLogin.cs",
               "RelativeDocumentMoniker": "EnvironmentVolunteer.DataAccess\\Models\\UserLogin.cs",
@@ -637,7 +712,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "UserClaim.cs",
               "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\Models\\UserClaim.cs",
               "RelativeDocumentMoniker": "EnvironmentVolunteer.DataAccess\\Models\\UserClaim.cs",
@@ -649,7 +724,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "PaginatedList.cs",
               "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\ApiModels\\PaginatedList.cs",
               "RelativeDocumentMoniker": "EnvironmentVolunteer.Core\\ApiModels\\PaginatedList.cs",
@@ -661,7 +736,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 42,
               "Title": "EnvironmentVolunteer.Api.csproj",
               "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj",
               "RelativeDocumentMoniker": "EnvironmentVolunteer\\EnvironmentVolunteer.Api.csproj",
@@ -673,7 +748,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 43,
               "Title": "EnumExtensions.cs",
               "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\Extensions\\EnumExtensions.cs",
               "RelativeDocumentMoniker": "EnvironmentVolunteer.Core\\Extensions\\EnumExtensions.cs",
@@ -685,7 +760,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 44,
               "Title": "CustomAttributeExtensions.cs",
               "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\Extensions\\CustomAttributeExtensions.cs",
               "RelativeDocumentMoniker": "EnvironmentVolunteer.Core\\Extensions\\CustomAttributeExtensions.cs",
@@ -697,19 +772,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "UserContext.cs",
-              "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\ApiModels\\UserContext.cs",
-              "RelativeDocumentMoniker": "EnvironmentVolunteer.Core\\ApiModels\\UserContext.cs",
-              "ToolTip": "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\ApiModels\\UserContext.cs",
-              "RelativeToolTip": "EnvironmentVolunteer.Core\\ApiModels\\UserContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T03:06:01.322Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "PagingBaseModel.cs",
               "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\ApiModels\\PagingBaseModel.cs",
               "RelativeDocumentMoniker": "EnvironmentVolunteer.Core\\ApiModels\\PagingBaseModel.cs",
@@ -721,7 +784,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "EnvironmentVolunteer.DataAccess.csproj",
               "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj",
               "RelativeDocumentMoniker": "EnvironmentVolunteer.DataAccess\\EnvironmentVolunteer.DataAccess.csproj",
@@ -733,7 +796,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "EnvironmentVolunteer\\Properties\\launchSettings.json",
@@ -745,7 +808,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 48,
               "Title": "EnvironmentVolunteer.Service.csproj",
               "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj",
               "RelativeDocumentMoniker": "EnvironmentVolunteer.Service\\EnvironmentVolunteer.Service.csproj",
@@ -757,7 +820,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 49,
               "Title": "EnvironmentVolunteer.Core.csproj",
               "DocumentMoniker": "D:\\environment-volunteer\\EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj",
               "RelativeDocumentMoniker": "EnvironmentVolunteer.Core\\EnvironmentVolunteer.Core.csproj",

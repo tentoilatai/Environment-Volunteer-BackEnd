@@ -43,63 +43,16 @@ namespace EnvironmentVolunteer.DataAccess.DbContexts
             builder.Entity<UserToken>().ToTable("UserTokens");
             builder.Entity<AuditChange>();
 
-            //SeedData(builder);
+            builder.Entity<User>()
+               .HasIndex(u => u.UserName)
+               .IsUnique();
+
+            builder.Entity<User>()
+                .HasIndex(u => u.Email)
+                .IsUnique();
+
         }
 
-        private void SeedData(ModelBuilder builder)
-        {
-
-            //string username = _configuration["DefaultUser:Username"];
-            //string defaultRole = _configuration["DefaultUser:Role"];
-            //string password = _configuration["DefaultUser:Password"];
-
-            //using var scope = _serviceProvider.CreateScope();
-            //var passwordHasherService = scope.ServiceProvider.GetService<PasswordHasher<User>>();
-
-            //var roles = _configuration.GetSection("DefaultRole");
-
-            //if (roles.Exists())
-            //{
-            //    foreach (var role in roles.GetChildren())
-            //    {
-            //        string roleId = Guid.NewGuid().ToString();
-
-            //        builder.Entity<IdentityRole>().HasData(new IdentityRole
-            //        {
-            //            Id = roleId,
-            //            Name = role.Value,
-            //            NormalizedName = role.Value.ToUpper(),
-            //        });
-
-            //        if (role.Value == defaultRole)
-            //        {
-            //            defaultRole = roleId;
-            //        }
-            //    }
-            //}
-
-            //string userId = Guid.NewGuid().ToString();
-
-            //builder.Entity<User>().HasData(
-            //    new User
-            //    {
-            //        //UserId = userId,  
-            //        UserName = username.ToLower(),
-            //        NormalizedUserName = username.ToUpper(),
-            //        AccessFailedCount = 0,
-            //        PasswordHash = passwordHasherService.HashPassword(new User
-            //        {
-            //            UserName = username.ToLower(),
-            //            NormalizedUserName = username.ToUpper(),
-            //        }, password)
-            //    });
-
-            //builder.Entity<IdentityUserRole<string>>().HasData(new IdentityUserRole<string>
-            //{
-            //    RoleId = defaultRole,
-            //    UserId = userId,
-            //});
-        }
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             try

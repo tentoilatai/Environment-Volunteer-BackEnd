@@ -8,6 +8,7 @@ namespace EnvironmentVolunteer.DataAccess.Interfaces
     {
         IRepository<Permission> PermissionRepository { get; set; }
         IRepository<RolePermission> RolePermissionRepository { get; set; }
+
         Task SaveChangesAsync();
     }
 }
