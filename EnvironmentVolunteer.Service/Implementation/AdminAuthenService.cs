@@ -24,7 +24,6 @@ using System.Reflection.Metadata.Ecma335;
 using System.Text.RegularExpressions;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
-using Microsoft.AspNet.Identity;
 
 namespace EnvironmentVolunteer.Service.Implementation
 {
