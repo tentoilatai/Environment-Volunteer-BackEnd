@@ -41,9 +41,8 @@ namespace EnvironmentVolunteer.Service.Implementation
                 new Claim(JwtRegisteredClaimNames.Iat, DateTimeOffset.UtcNow.ToString(), ClaimValueTypes.DateTime, _appSettings.Jwt.Issuer),
                 new Claim(JwtRegisteredClaimNames.Aud, _appSettings.Jwt.Audience, ClaimValueTypes.String, _appSettings.Jwt.Audience),
                 new Claim(JwtRegisteredClaimNames.Exp, expiresAt.ToString("yyyy/MM/dd hh:mm:ss"), ClaimValueTypes.String, _appSettings.Jwt.Issuer),
-                new Claim(ClaimTypes.Name, user.UserName, ClaimValueTypes.String, _appSettings.Jwt.Issuer),
+                new Claim(ClaimTypes.Name, user.NameProfile, ClaimValueTypes.String, _appSettings.Jwt.Issuer),
                 new Claim("userId", user.Id.ToString(), ClaimValueTypes.String, _appSettings.Jwt.Issuer)
-
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_appSettings.Jwt.Key));
@@ -85,7 +84,7 @@ namespace EnvironmentVolunteer.Service.Implementation
                 new Claim(JwtRegisteredClaimNames.Iat, DateTimeOffset.UtcNow.ToString(), ClaimValueTypes.DateTime, _appSettings.Jwt.Issuer),
                 new Claim(JwtRegisteredClaimNames.Exp, expiresAt.ToString("yyyy/MM/dd hh:mm:ss"), ClaimValueTypes.String, _appSettings.Jwt.Issuer),
                 new Claim(ClaimTypes.SerialNumber, refreshTokenCode, ClaimValueTypes.String, _appSettings.Jwt.Issuer),
-                new Claim(ClaimTypes.Name, user.UserName, ClaimValueTypes.String, _appSettings.Jwt.Issuer),
+                new Claim(ClaimTypes.Name, user.NameProfile, ClaimValueTypes.String, _appSettings.Jwt.Issuer),
                 new Claim("userId", user.Id.ToString(), ClaimValueTypes.String, _appSettings.Jwt.Issuer)
             };
 

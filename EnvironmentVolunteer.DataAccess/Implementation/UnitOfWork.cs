@@ -12,6 +12,7 @@ namespace EnvironmentVolunteer.DataAccess.Implementation
             EnvironmentVolunteerDbContext dbContext,
             IRepository<Permission> permissionRepository,
             IRepository<RolePermission> rolePermissionRepository
+
         )
         {
             _dbContext = dbContext;
@@ -22,6 +23,7 @@ namespace EnvironmentVolunteer.DataAccess.Implementation
         private readonly EnvironmentVolunteerDbContext _dbContext;
         public IRepository<Permission> PermissionRepository { get; set; }
         public IRepository<RolePermission> RolePermissionRepository { get; set; }
+
         public async Task SaveChangesAsync()
         {
             await _dbContext.SaveChangesAsync();

@@ -41,7 +41,7 @@ namespace EnvironmentVolunteer.Api.Utils
             var userManager = dbContext.GetService<UserManager<User>>();
             var roleManager = dbContext.GetService<RoleManager<Role>>();
 
-            // Tạo role nếu chưa có
+            // Create role if it do not have 
             if (!dbContext.Roles.Any())
             {
                 roleManager.CreateAsync(new Role { Name = "Admin" }).Wait();

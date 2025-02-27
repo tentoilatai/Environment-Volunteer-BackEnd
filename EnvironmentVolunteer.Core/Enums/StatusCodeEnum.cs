@@ -32,6 +32,16 @@ namespace EnvironmentVolunteer.Core.Enums
         [Description("Register account failed. Please try again.")]
         B01,
 
+        [Description("Password must be at least 8 characters long, contain at least one uppercase letter, one number, one digit, one lowercase, one unique chars , one non-alphanumeric. Please try again.")]
+        B02,
+
+
+        [Description("Invalid email. Please try to enter correctly format again.")]
+        B03,
+
+        [Description("Invalid email. Please try to enter correctly format again.")]
+        B04,
+
         [Description("{{Object}} not found")]
         A03,
 

@@ -38,23 +38,32 @@ protected override void OnModelCreating(ModelBuilder builder)
 {
     base.OnModelCreating(builder);
 
-    builder.Entity<User>().ToTable("Users");
-    builder.Entity<Role>().ToTable("Roles");
-    builder.Entity<RoleClaim>().ToTable("RoleClaims");
-    builder.Entity<UserClaim>().ToTable("UserClaims");
-    builder.Entity<UserLogin>().ToTable("UserLogins");
-    builder.Entity<UserRole>().ToTable("UserRoles");
-    builder.Entity<UserToken>().ToTable("UserTokens");
-    builder.Entity<AuditChange>();
-}
+            builder.Entity<User>().ToTable("Users");
+            builder.Entity<Role>().ToTable("Roles");
+            builder.Entity<RoleClaim>().ToTable("RoleClaims");
+            builder.Entity<UserClaim>().ToTable("UserClaims");
+            builder.Entity<UserLogin>().ToTable("UserLogins");
+            builder.Entity<UserRole>().ToTable("UserRoles");
+            builder.Entity<UserToken>().ToTable("UserTokens");
+            builder.Entity<AuditChange>();
 
-public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
-{
-    try
-    {
-        int rowCount;
-        var mappings = ChangeAudit();
-        rowCount = await base.SaveChangesAsync(cancellationToken);
+            builder.Entity<User>()
+               .HasIndex(u => u.UserName)
+               .IsUnique();
+
+            builder.Entity<User>()
+                .HasIndex(u => u.Email)
+                .IsUnique();
+
+        }
+
+        public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+            try
+            {
+                int rowCount;
+                var mappings = ChangeAudit();
+                rowCount = await base.SaveChangesAsync(cancellationToken);
 
         mappings.ForEach(m =>
         {

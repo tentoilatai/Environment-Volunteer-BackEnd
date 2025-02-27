@@ -139,7 +139,7 @@ namespace EnvironmentVolunteer.Api.Middlewares
             context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
 
 
-            await context.Response.WriteAsync("An error occurred. Please contact AmericanBank support.");
+            await context.Response.WriteAsync("An error occurred. Please contact EnvironmentVolunteer support.");
             await context.Response.WriteAsync(exception.Message + exception.StackTrace);
         }
 
